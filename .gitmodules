@@ -1,0 +1,6 @@
+[submodule "taxes-backend"]
+	path = taxes-backend
+	url = https://github.com/moabidi91/taxes-backend.git
+[submodule "taxes-ui"]
+	path = taxes-ui
+	url = https://github.com/moabidi91/taxes-ui.git
