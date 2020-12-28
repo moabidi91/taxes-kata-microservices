@@ -2,13 +2,13 @@ version: '3'
 
 services:
   backendserver:
-    build: ./taxes-backend/
+    build: ./taxes-backend
     ports:
       - "8081"
     restart: always
 
   frontend:
-    build: ./taxes-ui/
+    build: ./taxes-ui
     links:
       - "backendserver"
     depends_on:
