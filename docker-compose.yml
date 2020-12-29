@@ -4,7 +4,7 @@ services:
   backendserver:
     build: ./taxes-backend
     ports:
-      - "8081"
+      - "8080:8080"
     restart: always
 
   frontend:
@@ -14,4 +14,4 @@ services:
     depends_on:
       - "backendserver"
     ports:
-    - "80:80"
+    - "4200:4200"
