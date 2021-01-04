@@ -38,7 +38,7 @@ http://localhost:8080/taxesApi/generateBill
 
 2- INPUT_2
 ```bash
-"* 2 chocolate box imported at 10\n* 3 perfume bottle imported at 47.50€""* 2 perfume bottle imported at 27.99€\n* 1 perfume bottle at 18.99€\n* 3 migraine pill box at 9.75€\n* 2 chocolate bar imported at 11.25€" 
+"* 2 chocolate box imported at 10€\n* 3 perfume bottle imported at 47.50€\n* 2 perfume bottle imported at 27.99€\n* 1 perfume bottle at 18.99€\n* 3 migraine pill box at 9.75€\n* 2 chocolate bar imported at 11.25€" 
  ```
 3- INPUT_3
 ```bash
